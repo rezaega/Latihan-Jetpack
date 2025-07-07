@@ -36,7 +36,7 @@ sealed class Screen(val route: String) {
      * Route-nya adalah "profile".
      */
     object Profile : Screen(route = "profile")
-
+    object Notes : Screen("notes")
     object Login : Screen("login")
     object Register : Screen("register")
 }
